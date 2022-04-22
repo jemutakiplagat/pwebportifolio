@@ -129,9 +129,23 @@ flex-grow: 0;
 margin: 12px 0px;
 padding-left: 75px;
 }
-.connect{
+
+.connect {
     padding-left: 70px;
-    ;
-    color: #7F8CFF
+    color: #7F8CFF;
+ 
+}
+.icons {
     
+position: static;
+width: 170.17px;
+height: 20px;
+left: 24px;
+top: 470px;
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 12px 0px;
+padding-left: 50px;
+
 }
