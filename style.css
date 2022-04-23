@@ -19,7 +19,7 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  top: 44px;
+  top: -50px;
   bottom: 0;
   height: 48px;
   width: 375px;
@@ -37,6 +37,22 @@ h2 {
   border-radius: 0;
   padding: 10px, 12px, 10px, 12px;
 }
+h3{
+    color: #172B4D;
+font-family: "Poppins";
+font-size: 70px;
+font-weight: 700px;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+font-style: normal;
+align-items: center;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
+
+
+}
 
 body {
   border: 1px solid #ebebff;
@@ -44,11 +60,12 @@ body {
   position: absolute;
   height: 721.46px;
   left: 34.6px;
-  top: 119px;
+  top: 100px;
   background: #fff;
   width: 375px;
   background-image: url(images.jpg/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
+  background-size: 300px;
 }
 
 .headline {
@@ -65,7 +82,7 @@ body {
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding-left: 75px;
+  padding-left: 10px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -80,10 +97,10 @@ body {
   top: 276px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   color: #344563;
-  padding-left: 75px;
+  padding-left: 10px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -92,19 +109,26 @@ body {
 }
 
 .connect {
-  padding-left: 70px;
+  padding-left: 5px;
   color: #7f8cff;
 }
+.icons{
+    position: static;
+width: 170.17px;
+height: 20px;
+left: 24px;
+top: 470px;
 
-.icons {
-  position: static;
-  width: 170.17px;
-  height: 20px;
-  left: 24px;
-  top: 470px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  margin: 12px 0;
-  padding-left: 50px;
+
 }
+ ul{ 
+    order: inherit;
+    flex-grow: 0;
+    margin: 12px 0px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+
+    
+
+} 
