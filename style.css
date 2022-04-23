@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+  color: #6070ff;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50px;
+  bottom: 0;
+  height: 48px;
+  width: 375px;
+  border-radius: 0;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  left: 12px;
+  top: 4px;
+  border-radius: 0;
+  padding: 10px, 12px, 10px, 12px;
+}
+h3{
+    color: #172B4D;
+font-family: "Poppins";
+font-size: 70px;
+font-weight: 700px;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+font-style: normal;
+align-items: center;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
+
+
+}
+
+body {
+  border: 1px solid #ebebff;
+  border-radius: 0;
+  position: absolute;
+  height: 721.46px;
+  left: 34.6px;
+  top: 100px;
+  background: #fff;
+  width: 375px;
+  background-image: url(images.jpg/header-shapes\ mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.headline {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  border-radius: nullpx;
+  position: static;
+  top: 544px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-left: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.content {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  padding-left: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+
+}
+
+.connect {
+  padding-left: 5px;
+  color: #7f8cff;
+}
+.icons{
+    position: static;
+width: 170.17px;
+height: 20px;
+left: 24px;
+top: 470px;
+
+
+}
+ ul{ 
+    order: inherit;
+    flex-grow: 0;
+    margin: 12px 0px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+
+    
+
+} 
