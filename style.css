@@ -23,8 +23,6 @@ header {
   bottom: 0;
   height: 48px;
   width: 375px;
-  left: 0;
-  top: 0;
   border-radius: 0;
 }
 
@@ -32,9 +30,6 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  /* padding: 10px 12px; */
-
   height: 40px;
   width: 100px;
   left: 12px;
@@ -45,22 +40,13 @@ h2 {
 
 body {
   border: 1px solid #ebebff;
-  height: 721.4596557617188px;
-  width: 1397.3985595703125px;
-  left: 34.6015625px;
-  top: 119px;
   border-radius: 0;
   position: absolute;
-  width: 1397.4px;
   height: 721.46px;
   left: 34.6px;
   top: 119px;
   background: #fff;
-  height: 718px;
   width: 375px;
-  left: 0;
-  top: 0;
-  border-radius: [object object];
   background-image: url(images.jpg/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
 }
@@ -71,32 +57,15 @@ body {
   left: 24px;
   border-radius: nullpx;
   position: static;
-  width: 327px;
-  height: 150px;
-  left: 24px;
   top: 544px;
-
-  /* Header / 2 */
-
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
   padding-left: 75px;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -109,25 +78,17 @@ body {
   height: 146px;
   left: 24px;
   top: 276px;
-
-  /* Body / 2 */
-
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   padding-left: 75px;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
-  padding-left: 75px;
+
 }
 
 .connect {
